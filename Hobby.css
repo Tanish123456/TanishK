@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(#39fab7 0%,#39fa76 100%);
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+    height: 250;
+    width: 350;
+}
+
+hr {
+    color: black;
+}
+
+.menu {
+    list-style: none;
+    font-family:'Source Sans Pro', sans-serif;
+    float: right;
+    right: 30px;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+    transition: transform .2s;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
